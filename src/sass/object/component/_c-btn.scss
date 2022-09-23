@@ -1,0 +1,27 @@
+@use "global" as *;
+
+.c-btn {
+  display: inline-block;
+  font-family: $ja-font-family;
+  font-size: rem(12);
+  font-weight: $regular;
+  letter-spacing: -1px;
+  color: $white;
+  background-color: $pink;
+}
+
+.c-btn--header {
+  padding: rem(10) rem(30);
+  border-radius: rem(18);
+}
+
+.c-btn--mv {
+  padding: rem(14) rem(37);
+  border-radius: rem(23);
+}
+
+
+.c-btn--section {
+  padding: rem(16) rem(81);
+  border-radius: rem(27);
+}

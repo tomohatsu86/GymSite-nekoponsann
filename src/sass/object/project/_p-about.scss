@@ -1,0 +1,60 @@
+@use "global" as *;
+
+.p-about{
+  width: 100%;
+}
+
+.p-about__inner{
+
+}
+
+.p-about__head{
+  text-align: center;
+}
+
+.p-about__title{
+  font-family: $en-font-family;
+  font-size: rem(56);
+  font-weight: $bold;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  color: $pink;
+  text-align: center;
+}
+
+.p-about__sub-title{
+  font-family: $ja-font-family;
+  font-size: rem(16);
+  font-weight: $regular;
+  letter-spacing: 0;
+  color: $black;
+  margin-top: rem(0);
+}
+
+.p-about__sub-title span{
+  color: $pink;
+}
+
+.p-about__text{
+  font-family: $ja-font-family;
+  font-size: rem(16);
+  font-weight: $regular;
+  letter-spacing: 0;
+  line-height: 1.6;
+  color: $black;
+  margin-top: rem(15);
+}
+
+
+.p-about__items{
+  margin-top: rem(23);
+}
+
+.p-about__item + .p-about__item{
+  margin-top: rem(40);
+}
+
+.p-about__btn{
+  margin-top: rem(40);
+}

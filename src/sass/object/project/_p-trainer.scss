@@ -1,0 +1,67 @@
+@use "global" as *;
+
+.p-trainer{
+  width: 100%;
+}
+
+.p-trainer__top-wave{
+  transform: translateY(5px);
+}
+
+.p-trainer__wrapper{
+  width: 100%;
+  background-color: $pink;
+  transform: translateY(-1px);
+  padding-bottom: rem(40);
+}
+
+.p-trainer__inner{
+
+}
+
+.p-trainer__header{
+
+}
+
+.p-trainer__tab{
+  font-family: $ja-font-family;
+  font-size: rem(16);
+  font-weight: $regular;
+  letter-spacing: 0;
+  color: $white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.p-trainer__tab li{
+  width: 50%;
+}
+
+.p-trainer__tab a{
+  display: block;
+  width: 100%;
+  padding: rem(11) 0;
+}
+
+.p-trainer__tab a.current{
+  border-bottom: rem(2) solid $white;
+}
+
+
+.p-trainer__items{
+  margin-top: rem(20);
+}
+
+.p-trainer__group{
+
+}
+
+.p-trainer__item + .p-trainer__item{
+  margin-top: rem(15);
+}
+
+.p-trainer__bottom-wave{
+  transform: translateY(-2px);
+}
